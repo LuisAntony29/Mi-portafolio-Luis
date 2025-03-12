@@ -1,0 +1,75 @@
+/* Archivo styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin-top: 56px;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero-section {
+    height: 50vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h1, .hero-section p {
+    margin: 0;
+}
+
+/* Secciones */
+section {
+    padding: 60px 0;
+}
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Modo Oscuro */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .card {
+    background-color: #222;
+    color: #fff;
+}
+.btn-project {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block; /* Cambiado a block */
+    margin: 10px auto; /* Márgenes automáticos y margen superior */
+    max-width: 150px; /* Ancho máximo para controlar el tamaño */
+    text-align: center; /* Centrar el texto dentro del botón */
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-project:hover {
+    background-color: #0056b3;
+}
+.hero-section img {
+    width: 200px; /* Ajusta el ancho según lo necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
